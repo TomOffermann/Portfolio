@@ -1,0 +1,38 @@
+.Container {
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  top: calc(50% - 12em);
+}
+.Title {
+  position: relative;
+  font-family: "Monoton", cursive;
+  font-size: 4.3em;
+  color: #ffefc4;
+  margin-bottom: -30px;
+}
+.Sub-Title {
+  position: relative;
+  font-style: italic;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1em;
+  color: #f7edd0;
+}
+.Navigator {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 40%;
+  margin-left: 22.5%;
+}
+.Link {
+  pointer-events: auto;
+  text-decoration: none;
+  margin-top: 15px;
+  position: relative;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1em;
+  color: #f7edd0;
+}

@@ -1,0 +1,52 @@
+.Home {
+  position: absolute;
+  background-color: #131313;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.Socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Footer {
+  position: absolute;
+  display: flex;
+  color: #f7edd0;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  justify-content: space-around;
+  z-index: 10;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 0.5em;
+  top: calc(100% - 40px);
+}
+.instagram {
+  margin: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.github {
+  margin: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}

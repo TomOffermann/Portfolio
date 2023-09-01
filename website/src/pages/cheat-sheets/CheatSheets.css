@@ -1,0 +1,53 @@
+.Link {
+  pointer-events: auto;
+  text-decoration: none;
+  margin-top: 15px;
+  position: relative;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1em;
+  color: #f7edd0;
+}
+.Container {
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  top: calc(50% - 14em);
+}
+.Title {
+  position: relative;
+  font-family: "Monoton", cursive;
+  font-size: 4.3em;
+  color: #ffefc4;
+  margin-bottom: -30px;
+}
+.Sub-Title {
+  position: relative;
+  font-style: italic;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1em;
+  color: #f7edd0;
+}
+.Collection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 50px;
+}
+.Sem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  position: relative;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1em;
+  color: #f7edd0;
+}
+.OnTop {
+  pointer-events: none;
+  position: absolute;
+  z-index: 10;
+  top: calc(50% - 15em);
+}
