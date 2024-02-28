@@ -1,0 +1,42 @@
+.Top-Wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.Top-Wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 308px;
+  transform: rotateY(180deg);
+}
+
+.Top-Wave .shape-fill {
+  fill: #a69ff5;
+}
+
+.Bottom-Wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.Bottom-Wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 308px;
+  transform: rotateY(180deg);
+}
+
+.Bottom-Wave .shape-fill {
+  fill: #f5a651;
+}

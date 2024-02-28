@@ -1,6 +1,5 @@
 .Home {
   position: absolute;
-  background-color: #131313;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -49,4 +48,17 @@
   height: 20px;
   border-radius: 50%;
   background-color: white;
+}
+.Color-Switch {
+  position: absolute;
+  color: #f7edd0;
+  width: 100px;
+  top: 10%;
+  background: transparent;
+  z-index: 10;
+  border: 2px solid #f7edd0;
+  border-radius: 7px;
+  outline: none;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 0.8em;
 }

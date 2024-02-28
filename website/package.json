@@ -1,5 +1,6 @@
 {
   "name": "website",
+  "homepage": "https://n.ethz.ch/~toffermann",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "",
     "@types/three": "^0.155.1",
     "react-router-dom": "^6.15.0"
   }

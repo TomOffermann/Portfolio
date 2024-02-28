@@ -12,17 +12,19 @@ function Home(props: HomeProps) {
         <div className="Title">WELCOME</div>
         <div className="Sub-Title">to my personal website</div>
         <div className="Navigator">
-          <Link className="Link" to="/cheat-sheets" onClick={() => props.handleState(true)}>
+          <Link
+            className="Link"
+            to="/cheat-sheets"
+            onClick={() => props.handleState(true)}
+          >
             Cheat-Sheets/ Summaries
           </Link>
-          <Link className="Link" to="/tools">
-            Tools
-          </Link>
-          <Link className="Link" to="/projects">
-            Projects
-          </Link>
-          <Link className="Link" to="/cv">
-            CV
+          <Link
+            className="Link"
+            to="/anw"
+            onClick={() => props.handleState(true)}
+          >
+            AlgoWahr FS24
           </Link>
         </div>
       </div>

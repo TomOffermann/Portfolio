@@ -4,13 +4,29 @@
   z-index: 10;
   top: calc(50% - 12em);
 }
-.Title {
-  position: relative;
-  font-family: "Monoton", cursive;
-  font-size: 4.3em;
-  color: #ffefc4;
-  margin-bottom: -30px;
+
+@media only screen and (max-width: 720px) {
+  .Title {
+    position: relative;
+    font-family: "Monoton", cursive;
+    font-size: 2.4em;
+    color: #ffefc4;
+    margin-top: 40px;
+    margin-bottom: -10px;
+  }
 }
+
+@media only screen and (min-width: 720px) {
+  .Title {
+    position: relative;
+    font-family: "Monoton", cursive;
+    font-size: 4.3em;
+    color: #ffefc4;
+    margin-top: 40px;
+    margin-bottom: -20px;
+  }
+}
+
 .Sub-Title {
   position: relative;
   font-style: italic;
@@ -19,13 +35,15 @@
   color: #f7edd0;
 }
 .Navigator {
+  position: relative;
+  width: 60%;
+  left: 22.5%;
   display: flex;
   margin-top: 100px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
   height: 40%;
-  margin-left: 22.5%;
 }
 .Link {
   pointer-events: auto;

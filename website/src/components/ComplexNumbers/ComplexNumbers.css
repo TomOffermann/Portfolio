@@ -1,0 +1,12 @@
+.CNContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 18em;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.ComplexNumberInput {
+}
