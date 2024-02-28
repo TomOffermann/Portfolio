@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CheatSheets from "./pages/cheat-sheets/CheatSheets";
 import { useEffect, useState } from "react";
 import Clean from "./components/Clean/Clean";
-import AnW from "./pages/AnW/AnW";
+import AnW from "./pages/anw/AnW";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
