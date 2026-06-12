@@ -1,2 +1,2 @@
-[Personal Website](tom.offermann.name)
+[Personal Website](https://tom.offermann.name)
 
